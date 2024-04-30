@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.929),rgba(91, 91, 91, 0.806)), url(https://images.unsplash.com/photo-1660664026116-cfe1a0c3be65?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+}
+.hero{
+    width: 80%;
+    height: 95%;
+    background: linear-gradient(rgba(0, 0, 0, 0.47),rgba(31, 37, 44, 0.913)),url(https://images.unsplash.com/photo-1622547748225-3fc4abd2cca0?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    border-radius: 20px;
+}
+.nav{
+    width: 100%;
+    height: 8%;
+    /* background-color: #fff; */
+    position: absolute;
+    border-bottom: 0.5px solid aliceblue;
+}
+.ri-bring-to-front{
+    font-size: 40px;
+    color: aliceblue;
+    position: absolute;
+    left: 2%;
+    top: 4%;
+
+}
+.pnf{
+    width: 30%;
+    height: 10%;
+    /* background-color: #fff; */
+    color: rgb(189, 196, 202);
+    position: absolute;
+    top: 40%;
+    left: -5%;
+    transform: rotate(-90deg);
+}
+.ri-error-warning-line{
+    font-size: 40px;
+    position: absolute;
+    top: 5%;
+    left: 66%;
+}
+.left{
+    width: 40%;
+    height: 90%;
+    /* background-color: #e7adad; */
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+    align-items: center;
+    position: absolute;
+    top: 1%;
+    left: 60%;
+
+}
+.font{
+    width: 40%;
+    height: 25%;
+    /* background-color: #fff; */
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+   
+    
+}
+.font h1{
+    font-size: 120px;
+    font-weight: bolder;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    -webkit-text-stroke: 0.1px aliceblue;
+    color: transparent;
+    margin-top: -60px;
+    
+}
+button{
+    padding: 12px 20px;
+    background-color: transparent;
+    color: aliceblue;
+    cursor: pointer;
+    border: 1px solid aliceblue;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+button:hover{
+    background-color: rgb(189, 196, 202);
+    color: #000;
+    transition: all ease 0.5s;
+}
+.dontw{
+    width: 30%;
+    height: 10%;
+    /* background-color: #fff; */
+    position: absolute;
+    left: 50%;
+    top: 38%;
+    line-height: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: aliceblue;
+    transform: translate(-50%,-50%);
+}
+.btm1{
+    width: 70%;
+    height: 25%;
+    /* background-color: #ffffff79; */
+    color: aliceblue;
+    position: absolute;
+    top: 65%;
+    left: 28%;
+    display: flex;
+    justify-content: space-between;
+}
+.bt1{
+    width: 20%;
+    height: 100%;
+    /* background-color: #fff; */
+    /* position: absolute; */
+
+}
+.bt1:hover{
+    background-color: rgba(189, 196, 202, 0.158);
+    border-radius: 20px;
+}
+.bt2:hover{
+    background-color: rgba(189, 196, 202, 0.158);
+    border-radius: 20px;
+}
+.bt3:hover{
+    background-color: rgba(189, 196, 202, 0.158);
+    border-radius: 20px;
+}
+.bt4:hover{
+    background-color: rgba(189, 196, 202, 0.158);
+    border-radius: 20px;
+}
+
+.bt2{
+    width: 20%;
+    height: 100%;
+    /* background-color: #fff; */
+    /* position: absolute; */
+
+}
+.bt3{
+    width: 20%;
+    height: 100%;
+    /* background-color: #fff; */
+    /* position: absolute; */
+
+}
+.bt4{
+    width: 20%;
+    height: 100%;
+    /* background-color: #fff; */
+    /* position: absolute; */
+
+}
+.bt1 h2{
+    position: absolute;
+    left: 3%;
+    top: 2%;
+}
+.bt1 ul{
+    position: absolute;
+    left: 5%;
+    top: 30%;
+}
+.bt2 h2{
+    position: absolute;
+    left: 30%;
+    top: 2%;
+}
+.bt2 ul{
+    position: absolute;
+    left: 32%;
+    top: 30%;
+}
+.bt3 h2{
+    position: absolute;
+    left: 56%;
+    top: 2%;
+}
+.bt3 ul{
+    position: absolute;
+    left: 58%;
+    top: 30%;
+}
+.bt4 h2{
+    position: absolute;
+    left: 83%;
+    top: 2%;
+}
+.bt4 ul{
+    position: absolute;
+    left: 85%;
+    top: 30%;
+}
+
+.btm2{
+    width: 100%;
+    height: 5%;
+    /* background-color: #fff; */
+    position: absolute;
+    top: 95%;
+
+    border-top: 0.5px solid aliceblue;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.l1{
+    width: 35%;
+    height: 100%;
+    font-size: 12px;
+    /* background-color: #fff; */
+    color: rgba(240, 248, 255, 0.779);
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+    align-items: center;
+    position: absolute;
+    
+}
+.r1{
+    width: 10%;
+    height: 100%;
+    /* background-color: #fff; */
+    position: absolute;
+    left: 82%;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+    align-items: center;
+}
+.r1 i{
+    font-size: 25px;
+}
